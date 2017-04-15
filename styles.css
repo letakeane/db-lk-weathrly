@@ -1,0 +1,84 @@
+body {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(images/supercell.jpg) no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+h1, h2, h3, .input-field, .submit-button, p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+}
+
+/*CONTROLS*/
+h1 {
+  font-size: 40px;
+  margin: 20px 0 0 30px;
+}
+
+.input-holder {
+  padding: 25px;
+  margin: 0;
+}
+
+.input-field {
+  font-size: 20px;
+  border: none;
+  padding: 5px;
+  width: 300px;
+}
+
+.submit-button {
+  border: none;
+  background-color: rgba(64, 133, 119, 1);
+  font-size: 20px;
+  padding: 5px 20px 5px 20px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+/*TODAY WEATHER*/
+.today-weather {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*CURRENT WEATHER*/
+.currentWeather {
+  width: 45%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.current-header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.current-day , .current-location, .current-icon, .current-temp, .current-condition {
+  display: block;
+  margin: auto;
+}
+
+/*HOUR WEATHER*/
+.seven-hour-weather {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 45%;
+}
+
+.hour-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/*FORECAST WEATHER*/
