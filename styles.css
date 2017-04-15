@@ -5,7 +5,7 @@ body {
     rgba(0, 0, 0, 0.5)
   ),
   url(images/supercell.jpg) no-repeat;
-  background-size: cover;
+  background-size: fill;
   padding: 0;
 }
 
@@ -26,6 +26,7 @@ h1 {
 }
 
 .input-field {
+  color: #000000;
   font-size: 20px;
   border: none;
   padding: 5px;
