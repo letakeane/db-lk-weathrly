@@ -55,8 +55,8 @@ h1 {
 
 /*CURRENT WEATHER*/
 .currentWeather {
-  width: 45%;
-  background-color: rgba(0, 0, 0, 0.3);
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .current-header {
