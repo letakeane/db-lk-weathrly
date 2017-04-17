@@ -1,13 +1,11 @@
 import React from 'react';
 import Jest from 'jest';
 import { shallow, mount } from 'enzyme';
-
 import Forecast from '../lib/components/Forecast';
 import DayWeather from '../lib/components/DayWeather.js';
 
 import stubAPI from './stubAPI.json';
 import objectCleanerForecast from '../lib/helpers/objectCleanerForecast';
-require('locus');
 
 describe('Forecast', () => {
   it('should render ten <scroll-item/> ', () => {
