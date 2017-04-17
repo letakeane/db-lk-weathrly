@@ -1,10 +1,9 @@
 import Controls from '../lib/components/Controls'
 import React from 'react'
 import { shallow, mount } from 'enzyme'
+import { expect } from 'mocha'
 
 describe('Controls', () => {
-
-
   it('state.location should change when user types in field', () => {
     const wrapper = mount(<Controls fetchWeather = { () => {} } />);
     const inputField = wrapper.find('input[type="text"]');
