@@ -13,7 +13,7 @@ describe('Forecast', () => {
 
     const forecast = shallow(<DayWeather weather = {cleanAPI} />);
 
-    const dayWeatherCount = forecast.find('.scroll-item');
-    expect(dayWeatherCount).toHaveLength(40);
+    const dayWeatherCount = forecast.find('.hourly-forecast-scroll');
+    expect(dayWeatherCount).toHaveLength(10);
    });
 });

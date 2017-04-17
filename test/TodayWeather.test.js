@@ -9,11 +9,9 @@ import objectCleanerHourly from '../lib/helpers/objectCleanerHourly';
 describe('TodayWeather', () => {
   it('should render ', () => {
     const cleanAPI =  objectCleanerHourly(stubAPI);
-
     const hourWeather = shallow(<HourWeather weather = {cleanAPI} />);
 
     const hourWeatherCount = hourWeather.find('.hour-weather')
-
     expect(hourWeatherCount).toHaveLength(36)
   })
 })
