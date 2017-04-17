@@ -6,7 +6,7 @@ import Forecast from '../lib/components/Forecast';
 import DayWeather from '../lib/components/DayWeather.js';
 
 import stubAPI from './stubAPI.json';
-import objectCleanerForecast from '../lib/components/objectCleanerForecast';
+import objectCleanerForecast from '../lib/helpers/objectCleanerForecast';
 require('locus');
 
 describe('Forecast', () => {

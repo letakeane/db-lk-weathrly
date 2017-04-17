@@ -4,7 +4,7 @@ import { shallow, mount } from 'enzyme';
 
 import HourWeather from '../lib/components/HourWeather.js';
 import stubAPI from './stubAPI.json';
-import objectCleanerHourly from '../lib/components/objectCleanerHourly';
+import objectCleanerHourly from '../lib/helpers/objectCleanerHourly';
 
 describe('TodayWeather', () => {
   it('should render ', () => {
