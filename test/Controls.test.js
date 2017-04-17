@@ -1,7 +1,6 @@
 import Controls from '../lib/components/Controls'
 import React from 'react'
 import { shallow, mount } from 'enzyme'
-// import Jest from 'jest'
 import Weather from '../lib/components/Weather.js'
 
 describe('Controls', () => {
