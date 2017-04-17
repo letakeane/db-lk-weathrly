@@ -20,4 +20,8 @@
   .current-weather, .seven-hour-weather {
     width: 90%;
   }
+
+  .ten-day-cast {
+    width: 90%;
+  }
 }
