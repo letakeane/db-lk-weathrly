@@ -1,4 +1,3 @@
-import React from 'react';
 import { shallow, mount } from 'enzyme';
 import objectCleanerHourly from '../lib/helpers/objectCleanerHourly'
 import stubAPI from './stubAPI.json';
