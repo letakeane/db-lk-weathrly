@@ -6,7 +6,6 @@ describe(' objectCleanerForecast', () => {
   it('should clean an object and have the following properties', () => {
 
     const cleanAPI = objectCleanerHourly(stubAPI)[0];
-    console.log(cleanAPI);
 
     expect(cleanAPI).to.have.deep.property('weekday')
     expect(cleanAPI).to.have.deep.property('conciseCondition')
